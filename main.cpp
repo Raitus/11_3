@@ -40,6 +40,7 @@ bool IpAddressValidation(std::string ip) {
 	}
 	number = "";
   }
+  return false;
 }
 
 int main() {
